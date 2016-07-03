@@ -5,12 +5,25 @@
 
 <p align="center"><img src="https://raw.githubusercontent.com/wiki/rizaumami/merbot/_images/merbot.png" width="512" alt="Merbot illustration" title="Merbot illustration">
 
-**Merbot** is a dedicated Telegram group administration bot based on [telegram-bot](https://github.com/yagop/telegram-bot).
+برای نصب بات مراحل زیر را انجام بدین 
 
-Consult [Merbot's wiki](https://github.com/rizaumami/merbot/wiki) for documentation.
+sudo apt-get update
+sudo apt-get upgrade
+sudo apt-get install libreadline-dev libconfig-dev libssl-dev lua5.2 liblua5.2-dev libevent-dev libjansson-dev libpython-dev make unzip git redis-server g++
 
-Please open a [github issue](https://github.com/rizaumami/merbot/issues) if you found an issue with `merbot`.
+cd $HOME
+git clone https://github.com/rizaumami/merbot.git
+cd merbot
+./merbot install
+./merbot
+بعد شماره میخواد
+بعدش یوزر نیم ربات هلپر api 
+بعد از ان توکن ربات api 
+وبرای روشن نگه داشتن این ربات 
+یکیو میتونید اجرا کنید 
+screen ./merbot
+nohup ./merbot
 
 ***
 
-_Thanks to [rizkymsyahputra](https://github.com/rizkymsyahputra) for the awesome merbot artwork_.
+
